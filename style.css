@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #413a3a;
+    overflow-y: auto;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.logo {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+    background-color: #535252;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #fff;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #535252;
+    
+}
+.description {
+    flex: 1;
+    padding: 20px;
+    font-size: 100%;
+    text-align: center;
+}
+.Homepic {
+    flex: 1;
+    text-align: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    background-color: #b6acac;
+    border: 2px solid #000000;
+    height: 100%;
+}
+.content{
+    justify-content: space-between;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 30px;
+    background-color: #535252;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .contentS{
+    justify-content: space-between;
+    color: #fff;
+    text-align: center;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 30px;
+    background-color: #535252;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+      
+  .last {
+    flex: 1;
+    padding: px;
+    text-align: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    max-height: 400px;
+}
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+    ul{
+      list-style-type:none;
+    }
+    .containerS{
+      padding: 30px;
+      width: 95%;
+      margin-left: 2.5%;
+      color: #fff;
+      background-color: #535252;
+      font-family: "Lucida Console", "Courier New", monospace;
+      animation: fadeIn 2s scale(2);
+  
+    }
+    @keyframes fadeIn {
+      0%{
+        transition: scale(0);
+      }
+      50%{
+        transition: scale(1.2);
+      }
+      100%{
+        transition: scale(1);
+      }
+      
+    }
+    .splide__slide {
+      opacity: 0.6;
+      transition: opacity 0.5s ease;
+    }
+    
+    .splide__slide.is-active {
+      opacity: 1;
+    }
